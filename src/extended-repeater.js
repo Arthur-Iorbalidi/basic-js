@@ -16,20 +16,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function repeater(str, options) {
-  // let result = [];
-  // let separator = "+";
-  // let addition = "";
-  // if(options.hasOwnProperty("separator")) {
-  //   separator = options.separator;
-  // }
-  // if(options.hasOwnProperty("addition")) {
-  //   addition = options.addition;
-  // }
-  // for(let i = 0; i < options.repeatTimes; i++) {
-  //   result.push(`${str}${addition}`);
-  // }
-  // result = result.join(`${separator}`);
-  // return result;
   let result = [];
   let repeatTimes = 1;
   let separator = "+";
